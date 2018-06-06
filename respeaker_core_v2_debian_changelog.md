@@ -15,6 +15,7 @@
     - support lxqt desktop 2D/3D accelerate
     - optimize x11vnc,current software eat too much cpu.
     - support hardware video encode/decode
+    - support linux kernel overlayfs
     
 ### Known bugs/problems:
     - BOOT disk part cannt auto mount in host PC
