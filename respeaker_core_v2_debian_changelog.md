@@ -2,6 +2,8 @@
 
 ## 20180606
 
+Note: This version is not recommended to use
+
 ### News
     - Update linux kernel to 4.4.126-respeaker-r2
     - system support  Rockchip DMC(Dynamic Memory Controller) 
@@ -20,3 +22,4 @@
 ### Known bugs/problems:
     - BOOT disk part cannt auto mount in host PC
     - bluetooth auido maybe has noise on some device
+    - speaker volume will be zero when system do restart
