@@ -36,8 +36,6 @@ Note: This version is not recommended to use, have been deleted.
     - optimize x11vnc,current software eat too much cpu.
     - support hardware video encode/decode
     - support linux kernel overlayfs
-    
-### Known bugs/problems:
     - BOOT disk part cannt auto mount in host PC
     - bluetooth auido maybe has noise on some device
     - speaker volume will be zero when system do restart
