@@ -1,5 +1,21 @@
 # ReSpeaker Core v2 debian image
 
+## 20180730
+
+### News
+    - Update linux kernel to 4.4.138-respeaker-r0
+    - Pulseaudio update to 12.2, bluetooth auido noise disappeared.
+    - Use seeed.respeaker.io as respeaker debian apt source
+    - All disk partitions switch to the MBR partition. So BOOT partition can auto mount in host PC.
+    - set rockchp's xf86-video-armsoc as default X.org graphics driver.
+
+### TODO
+    - support lxqt desktop 2D/3D accelerate. rockchp's xf86-video-armsoc looks like a semi-finished product, This feature may not be supported in the future
+    - support hardware video encode/decode, I think it's working, but I don't have any demos.
+    - optimize x11vnc,current software eat too much cpu.
+    - support linux kernel overlayfs
+
+
 ## 20180610
 
 Note: This version lack of flasher image
